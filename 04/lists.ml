@@ -35,6 +35,14 @@ let rec rev l =
   | [] -> []
   | h::t -> rev t @ [h]
 
+(* 7 *)
+let reverse l =
+  let rec go xs ys =
+    match xs with
+    | [] -> ys
+    | h::t -> go t (h::ys)
+  in go l []
+
 let rec take n l =
     match n with
     | 0 -> []
@@ -45,7 +53,7 @@ let rec take n l =
 
 let rec drop n l =
     match n with
-    | 0 -> []
+    | 0 -> l
     | _ ->
       match l with
       | h::t -> drop (n - 1) t
@@ -89,10 +97,5 @@ let make_set l =
     | [] -> b
   in go l []
 
-(* 7 *)
-let reverse l =
-  let rec go xs ys =
-    match xs with
-    | [] -> ys
-    | h::t -> go t (h::ys)
-  in go l []
+(* 7, see declaration of reverse *)
+
