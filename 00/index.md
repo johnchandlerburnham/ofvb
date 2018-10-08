@@ -5,7 +5,7 @@ date: 2018-10-02
 tags: ofvb, ocaml
 ---
 
-![](/images/ofvb-cover.png)
+![](/images/ofvb-cover.jpg)
 
 # Contents
 
@@ -31,5 +31,11 @@ tags: ofvb, ocaml
 Since I'm running NixOS:
 
 ```
-nix-env -iA nixos.ocaml
+$ nix-env -iA nixos.ocaml
+$ ocaml
 ```
+
+This book seems mostly designed to be done from the REPL for the first parts.
+The default OCaml REPL is a little bare-bones (doesn't even have arrow keys), so
+in [Chapter 05: Sorting Things](/projects/ofvb/05) I wrote a `default.nix` to
+bring in `utop`, which is a nice wrapper that makes the REPL much more usable.
