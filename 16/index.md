@@ -25,15 +25,15 @@ You need to compile with the interface first.
 
 ## 1
 
-see `stats/stats.ml`
+[see `stats/stats.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/stats/stats.ml)
 
 ## 2
 
-see `reverse/reverse.ml`
+[see `reverse/reverse.ml`](https://github.com/johnchandlerburnham/ofvb/tree/master/16/reverse)
 
 ## 3
 
-see `compare/fact.ml`
+[see `compare/fact.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/compare/fact.ml)
 
 Need `nums.cma` for `ocamlc` and `nums.cmxa` for `ocamlopt`.
 
@@ -42,4 +42,4 @@ also 10 seconds.
 
 ## 4
 
-see `search/search.ml`
+[see `search/search.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/search/search.ml)

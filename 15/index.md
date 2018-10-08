@@ -4,6 +4,8 @@ author: jcb
 date: 2018-10-07
 ---
 
+[see `standard.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/15/standard.ml)
+
 I've read rumors that the regular OCaml standard library is not as good as Jane
 Street's Core library. Maybe that's something to investigate after I finish this
 book.

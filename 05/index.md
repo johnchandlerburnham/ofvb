@@ -36,7 +36,7 @@ with import <nixpkgs> {};
 
 # Questions
 
-see `sort.ml`
+[see `sort.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/05/sort.ml)
 
 ## 2
 

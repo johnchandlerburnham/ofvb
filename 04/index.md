@@ -16,7 +16,7 @@ it though, so I hope there's more advanced syntax to learn later on.
 
 # Questions
 
-see `lists.ml`
+[see `lists.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/04/lists.ml)
 
 ## 1
 

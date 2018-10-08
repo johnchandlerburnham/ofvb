@@ -4,7 +4,7 @@ author: jcb
 date: 2018-10-05
 ---
 
-see `trees.ml`
+[see `trees.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/11/trees.ml)
 
 Really missing the `Functor` and `Foldable` typeclasses here. My `foldMap` isn't
 really a `foldMap`, since it needs a ternary function and an explicit `mempty`,

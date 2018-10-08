@@ -4,7 +4,7 @@ author: jcb
 date: 2018-10-04
 ---
 
-see  `wrong.ml`
+[see `wrong.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/07/wrong.ml)
 
 Reworked `take` and `drop` to use pattern matching rather than nested `if`s.
 

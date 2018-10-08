@@ -4,7 +4,7 @@ author: jcb
 date: 2018-10-05
 ---
 
-see `io.ml`
+[see `io.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/12/io.ml)
 
 # Questions
 

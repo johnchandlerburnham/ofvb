@@ -4,7 +4,7 @@ author: jcb
 date: 2018-10-04
 ---
 
-see `look.ml`
+[see `look.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/08/look.ml)
 
 # Questions
 

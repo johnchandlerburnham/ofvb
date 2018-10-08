@@ -4,6 +4,8 @@ author: jcb
 date: 2018-10-05
 ---
 
+[see `data.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/10/data.ml)
+
 Yes, now we learn about the option type which is the equivalent of Haskell's
 `Maybe`, and is a great way to replace impure exceptions with pure types.
 

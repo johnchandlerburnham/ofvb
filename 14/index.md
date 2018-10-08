@@ -4,6 +4,8 @@ author: jcb
 date: 2018-10-07
 ---
 
+[see `other_numbers.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/14/other_numbers.ml)
+
 Okay, here's one thing I find a little strange. Tuples are to be polymorphic
 with respect to each element (so `(a,b)` is the product of `a` and `b`). In
 Haskell, if we want a monomorphic pair, we can either make an `(a,a)`

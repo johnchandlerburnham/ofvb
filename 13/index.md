@@ -4,7 +4,7 @@ author: jcb
 date: 2018-10-07
 ---
 
-see `boxes.ml`
+[see `boxes.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/13/boxes.ml)
 
 This mix of functional and imperative is really interesting.
 

@@ -25,7 +25,7 @@ extension, but I won't worry about that yet.
 
 # Questions
 
-see `case.ml`
+[see `case.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/03/case.ml)
 
 ## 4
 
