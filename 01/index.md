@@ -1,8 +1,4 @@
----
-title: "Notes (OFVB 01/31): Starting Off"
-author: jcb
-date: 2018-10-02
----
+# 1: Starting Off"
 
 # Questions
 

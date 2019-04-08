@@ -4,40 +4,41 @@ author: jcb
 date: 2018-10-02
 ---
 
+# 2: Names and Functions"
 On my system, `max_int` is 2^62 - 1, `min_int` is (-2)^62. Apparently OCaml
 uses the extra bit for some internal pointer magic.
 
-# Questions
+## Questions
 
-## 1
+### 1
 
 ```ocaml
 # let f x = x * 10
 val f : int -> int = <fun>
 ```
 
-## 2
+### 2
 
 ```ocaml
 # let f x y = x <> 0 && y <> 0;;
 val f : int -> int -> bool = <fun>
 ```
 
-## 3
+### 3
 
 ```ocaml
 # let rec f x = if x = 1 then 1 else x + f (x - 1);;
 val f : int -> int = <fun>
 ```
 
-## 4
+### 4
 
 ```ocaml
 let rec power x n = if n = 0 then 1 else x * f x (n - 1);;
 val power : int -> int -> int = <fun>
 ```
 
-## 5
+### 5
 
 ```ocaml
 # let isVowel c = c = 'a' || c = 'e' || c = 'i' || c = 'o' || c = 'u';;
@@ -48,7 +49,7 @@ val not : bool -> bool = <fun>
 val isConsonant : char -> bool = <fun>
 ```
 
-## 6
+### 6
 
 ```ocaml
 # let x = 1 in let x = 2 in x + x;;
@@ -58,7 +59,7 @@ Warning 26: unused variable x.
 
 OCaml searches bindings from inside to outside, so only the `let x = 2` matters.
 
-## 7
+### 7
 
 ```ocaml
 # let rec factorial a = if a <= 0 then 0 else

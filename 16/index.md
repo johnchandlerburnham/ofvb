@@ -1,8 +1,4 @@
----
-title: "Notes (OFVB 16/31): Building Bigger Programs"
-author: jcb
-date: 2018-10-07
----
+# 16 Building Bigger Programs
 
 Erratum: Should be `ocamlc textstat.ml`, not `ocamlc textstate.ml`
 
@@ -21,25 +17,25 @@ Error: The files textstat.cmo and textstat.cmi make inconsistent assumptions
 
 You need to compile with the interface first.
 
-# Questions
+## Questions
 
 ## 1
 
-[see `stats/stats.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/stats/stats.ml)
+[See`stats/stats.ml`](/16/stats/stats.ml)
 
-## 2
+### 2
 
-[see `reverse/reverse.ml`](https://github.com/johnchandlerburnham/ofvb/tree/master/16/reverse)
+[See`reverse/reverse.ml`](/16/reverse/reverse.ml)
 
-## 3
+### 3
 
-[see `compare/fact.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/compare/fact.ml)
+[See`compare/fact.ml`](/16/compare/fact.ml)
 
 Need `nums.cma` for `ocamlc` and `nums.cmxa` for `ocamlopt`.
 
 Compiling with `ocamlc`, `factorial 100000` took 10 seconds. With `ocamlopt`,
 also 10 seconds.
 
-## 4
+### 4
 
-[see `search/search.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/16/search/search.ml)
+[See`search/search.ml`](/16/search/search.ml)

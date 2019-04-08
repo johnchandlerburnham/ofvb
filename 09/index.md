@@ -1,27 +1,23 @@
----
-title: "Notes (OFVB 09/31): More with Functions"
-author: jcb
-date: 2018-10-05
----
+# 9 More with Functions
 
-[see `more.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/09/more.ml)
+[See `more.ml`](/09/more.ml)
 
-# Questions
+## Questions
 
-## 1
+### 1
 
 This is just a description of currying, which I have written about in great
 detail elsewhere (HPFP notes).
 
-## 2
+### 2
 
 Type of member is ` 'a -> 'a list -> bool`
 
-## 3
+### 3
 
 `((/) 2)` is the same as `(fun x -> 2 / x)`, we want `(fun x -> x / 2)`
 
-## 4
+### 4
 
 It is possible to write a function which works like a map over arbitrary list
 nesting. One way to do it is to write a function that first converts the list

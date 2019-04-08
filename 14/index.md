@@ -1,10 +1,6 @@
----
-title: "Notes (OFVB 14/31): The Other Numbers"
-author: jcb
-date: 2018-10-07
----
+# 14 The Other Numbers
 
-[see `other_numbers.ml`](https://github.com/johnchandlerburnham/ofvb/blob/master/14/other_numbers.ml)
+[See `other_numbers.ml`](/14/other_numbers.ml)
 
 Okay, here's one thing I find a little strange. Tuples are to be polymorphic
 with respect to each element (so `(a,b)` is the product of `a` and `b`). In
@@ -72,9 +68,9 @@ polymorphism is simulatedc with `(*, *) -> *` instead of `* -> * -> *`
 Are we seriously using `+.` for floating point addition? Really? There isn't
 some way to overload `+` to do what we want? smh, OCaml.
 
-# Questions
+## Questions
 
-## 5
+### 5
 
 I dislike how IO heavy this exercise is. Like, I guess I could do this in a
 totally pure way with recursion, but the language really seems to want to make
